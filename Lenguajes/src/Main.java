@@ -18,7 +18,8 @@ public class Main {
         pitCrewTeam.printInformation();
 
         // Ejecución de tareas específicas del equipo de mecánicos
-        System.out.println("Tareas realizadas por el equipo de mecánicos :) \n");
+        System.out.println("-".repeat(175));
+        System.out.println("Tareas realizadas por el equipo de mecánicos: \n");
 
         TaskTyreOn taskTyreOn = new TaskTyreOn(4);
         taskTyreOn.speak();
@@ -46,11 +47,11 @@ public class Main {
 
         // Creación de un equipo de pilotos A y adición de miembros exclusivos del
         // equipo de mecánicos
-        System.out.println("**********************");
+        System.out.println("-".repeat(175));
         System.out.println("Creando TeamDriverA");
         TeamDriverA teamDriverA = new TeamDriverA("TeamDriverA", "Red", 100);
         teamDriverA.getAllTeamInfo();
-        System.out.println("Personas pertenecientes");
+        System.out.println("\nPersonas pertenecientes:\n");
 
         // Convertir List<PitCrewMember> a ArrayList<PitCrewMember>
         ArrayList<PitCrewMember> pitCrewMembers = new ArrayList<>(pitCrewTeam.getListPitCrewMember());
@@ -60,11 +61,11 @@ public class Main {
 
         // Creación de un equipo de pilotos B y adición de miembros exclusivos del
         // equipo de mecánicos
-        System.out.println("**********************");
+        System.out.println("-".repeat(175));
         System.out.println("Creando TeamDriverB");
         TeamDriverB teamDriverB = new TeamDriverB("TeamDriverB", "Mercedez", 95);
         teamDriverB.getAllTeamInfo();
-        System.out.println("Personas pertenecientes");
+        System.out.println("\nPersonas pertenecientes:\n");
         teamDriverB.addExclusivePitCrewMembers(pitCrewMembers); // Utilizamos la misma lista para TeamDriverB
         teamDriverB.showExclusivePitCrewMembers();
 

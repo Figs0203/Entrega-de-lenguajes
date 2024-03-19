@@ -35,7 +35,8 @@ public class TeamDriverA {
      */
     public void showExclusivePitCrewMembers() {
         for (PitCrewMember pitCrewMember : this.listExclusivePitCrewMembers) {
-            System.out.println(pitCrewMember.getName() + " " + pitCrewMember.getLastName());
+            System.out.println("Nombre: " + pitCrewMember.getName() + " " + pitCrewMember.getLastName());
+            System.out.println("Rol: "+ pitCrewMember.getRol()+ "\n");
         }
     }
 
