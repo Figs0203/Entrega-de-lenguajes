@@ -86,7 +86,7 @@ public class Main {
         listPitCrewMember.add(new PitCrewMember("Raquel", "Sánchez", 32, "Tyre gunner", "BOTH"));
         listPitCrewMember.add(new PitCrewMember("José", "Ortega", 31, "Tyre off", "BOTH"));
         listPitCrewMember.add(new PitCrewMember("Rubén", "Ramirez", 25, "Tyre off", "BOTH"));
-        listPitCrewMember.add(new PitCrewMember("Manuela", "Zapata", 33, "Tyre off", "BOTH"));
+        listPitCrewMember.add(new PitCrewMember("Manuela", "Zapata", 18, "Tyre off", "BOTH"));
         listPitCrewMember.add(new PitCrewMember("Pedro", "Martínez", 26, "Tyre off", "BOTH"));
         listPitCrewMember.add(new PitCrewMember("Sofía", "Díaz", 29, "Tyre on", "BOTH"));
         listPitCrewMember.add(new PitCrewMember("Agustín", "Figueroa", 19, "Tyre on", "BOTH"));

@@ -9,7 +9,8 @@ public class PitCrewTeamManager implements PitCrewTeamInter {
         for (PitCrewMember pitCrewMember : listPitCrewMember) {
             if (this.validateAge(pitCrewMember.getAge())) {
                 this.listPitCrewMember.add(pitCrewMember);
-            } else {
+            }
+            else {
                 System.out.println("No es posible agregar por edad: " + pitCrewMember.getName());
             }
         }
@@ -20,10 +21,10 @@ public class PitCrewTeamManager implements PitCrewTeamInter {
         System.out.println("Información de los miembros del equipo de mecánicos:");
         if (!listPitCrewMember.isEmpty()) {
             for (PitCrewMember pitCrewMember : listPitCrewMember) {
-                System.out.println("Nombre: " + pitCrewMember.getName());
+                System.out.println("Nombre y apellido: " + pitCrewMember.getName() + " " + pitCrewMember.getLastName());
                 System.out.println("Edad: " + pitCrewMember.getAge());
                 System.out.println("Rol: " + pitCrewMember.getRol());
-                System.out.println("WorksFor: " + pitCrewMember.getWorksFor());
+                System.out.println("Trabaja para (WorksFor): " + pitCrewMember.getWorksFor());
                 System.out.println();
             }
         } else {
