@@ -9,10 +9,8 @@ public class Main {
     /**
      * Método principal que inicia la simulación del equipo de Fórmula 1 y su equipo
      * de mecánicos.
-     *
-     * @param args Argumentos de línea de comandos (no se utilizan en esta
-     *             aplicación).
      */
+
     public static void main(String[] args) {
         // Creación de un equipo de mecánicos de pit crew
         PitCrewTeamManager pitCrewTeam = new PitCrewTeamManager();
